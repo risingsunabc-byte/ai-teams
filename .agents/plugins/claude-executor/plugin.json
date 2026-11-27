@@ -1,0 +1,6 @@
+{
+  "name": "claude-executor",
+  "displayName": "Claude Code & Antigravity CLI Relay (Sonnet 5.5 / Opus 5.5 / Agy)",
+  "description": "Dual-account WSL/POSIX AI team relay: Desktop App Neon plans natively (with optional agy_plan offload), local Claude Code CLI executes (claude_execute*), Account B Antigravity CLI provides fallback execution via agy_execute (gemini-4-hydrogen-xhigh) and primary cross-vendor blind verification via agy_verify (gemini-4-carbon-high), and claude_verify (opus) joins in parallel for major/high-risk double-blind checks with RWLock concurrency and L1/L2/L3 recovery handoffs.",
+  "version": "2.5.2"
+}

@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "claude-executor": {
+      "command": "python3",
+      "args": ["-B", "${PLUGIN_ROOT}/mcp_server.py"],
+      "timeoutSeconds": 180,
+      "env": {
+        "CLAUDE_MODEL": "sonnet",
+        "CLAUDE_EFFORT": "high",
+        "CLAUDE_PERMISSION_MODE": "bypassPermissions",
+        "CLAUDE_STRICT_MCP_CONFIG": "1",
+        "CLAUDE_MAX_TURNS": "40",
+        "CLAUDE_TIMEOUT_SECONDS": "150",
+        "CLAUDE_ASYNC_TIMEOUT_SECONDS": "900",
+        "CLAUDE_SESSION_MAX_TURNS": "30",
+        "CLAUDE_SESSION_TTL_SECONDS": "3600",
+        "CLAUDE_VERIFY_MODEL": "opus",
+        "CLAUDE_VERIFY_EFFORT": "high",
+        "CLAUDE_VERIFY_MAX_TURNS": "25",
+        "AGY_PLAN_MODEL": "",
+        "AGY_EXECUTE_MODEL": "gemini-4-hydrogen-xhigh",
+        "AGY_VERIFY_MODEL": "gemini-4-carbon-high",
+        "AGY_EFFORT": "",
+        "AGY_SANDBOX": "1"
+      }
+    }
+  }
+}
